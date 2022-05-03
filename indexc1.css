@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategray;
+
+}
+.upper-container{
+
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.upper-container1{
+    padding-left: 40%;
+    width: 80%;
+    height: 100%;
+}
+#heading{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.upper-container2{
+    width: 30%;
+    height: 100%;
+    padding-top: 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.button{
+    
+    padding-left: 45%;
+    padding-bottom: 5%;
+    
+}
+.back-button{
+    size: 300px;
+    height: 50px;
+    font-size: 30px;
+    background: local;
+   opacity: 0.5;
+   border-radius: 5px;
+    padding-left: 10px;
+    color: white; 
+}
+
+.cards{
+    
+    display: flex;
+    padding-top: 50px;
+    margin-top: 10px;
+    border:1.5px solid yellowgreen;
+    height: 40vh;
+    width: 20%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5PX 5PX 10PX gray;
+    margin: auto;
+}
+.fafa{
+    padding-top: 10rem;
+    padding-left: 13rem; 
+    
+}
+
+.div1{
+   
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: center;
+    height: 15%;
+    color: rgb(240, 6, 123);
+    border-bottom: 1px solid rgb(0, 0, 0);
+} 
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    color: rgb(136, 131, 139);
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+    
+
+}
+.div3{
+
+    width: 90%;
+    height: 10%;
+    position:absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 10%;
+}
+@media (max-width:600px) {
+    .upper-container{
+
+        width: 80%;
+    }
+    .upper-container1{
+        width: 90%;
+    }
+    .upper-container2{
+        width: 15%;
+        margin-top: 2x;
+    }
+    #addlist{
+        display: none;
+        width: 80%;
+    }
+
+    #circle{
+        right: 50%;
+    }
+    /* .div2{
+
+        display: none;
+    }
+    .div3{
+
+        display: none;
+
+    } */
+    /* .div1{
+        border: none;
+        color: grey;
+    } */
+    .cards{
+        flex-direction: column;
+        width: 80%;
+        height: 40%;
+        margin-top: 0px;
+    }
+   
+
+}

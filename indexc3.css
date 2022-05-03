@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategray;
+
+}
+.upper-container{
+
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.upper-container1{
+    padding-left: 40%;
+    width: 80%;
+    height: 100%;
+}
+#heading{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.upper-container2{
+    width: 30%;
+    height: 100%;
+    padding-top: 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.button{
+    
+    padding-left: 45%;
+    padding-bottom: 5%;
+    
+}
+.back-button{
+    
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top: 50px;
+    background: none;
+    color: rgba(245, 9, 9, 0.966);
+}
+.cards{
+    
+    display: flex;
+    /* padding-top: 50px;
+    margin-top: 10px; */
+    border:1.5px solid yellowgreen;
+    height: 40vh;
+    width: 20%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5PX 5PX 10PX gray;
+    margin: auto;
+}
+
+.div1{
+   
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: center;
+    height: 15%;
+    color: rgb(240, 6, 123);
+    border-bottom: 1px solid rgb(0, 0, 0);
+} 
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    color: rgb(136, 131, 139);
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+    
+
+}
+.div3{
+
+    width: 90%;
+    height: 10%;
+    position:absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 10%;
+}
+.not-show{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+
+}
+.pop-up{
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    height: 25%;
+    width: 25%;
+    border: 1.5px solid gray;
+    border-radius: 15px;
+    color: rgb(250, 250, 250);
+    font-size: 18px;
+    box-shadow: 3px 3px 10px gray;
+    background-color: white;
+    padding: 20px;
+    background-color: darkslategray;
+}
+.add-new{
+    opacity: 0.7;
+    font-size: 17px;
+}
+.pop-upbar{
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 85%;
+    height: 27%;
+    border: 1.5px solid rgb(0, 0, 0);
+    box-shadow: 1px 1px 3px gray;
+}
+.pop-up-button{
+    width: 25%;
+    height: 20%;
+    margin-top:18px;
+    color: wheat;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    left: 130px;
+    font-size: 20px;
+}
+.pop-up-button:hover{
+    color: rgb(0, 0, 0);
+}
+@media (max-width:600px) {
+    .upper-container{
+
+        width: 80%;
+    }
+    .upper-container1{
+        width: 80%;
+    }
+    .upper-container2{
+        width: 15%;
+        margin-top: 2x;
+    }
+    #addlist{
+        display: none;
+        width: 80%;
+    }
+
+    #circle{
+        right: 50%;
+    }
+    .div2{
+
+        display: none;
+    }
+    .div3{
+
+        display: none;
+
+    }
+    .div1{
+        border: none;
+        color: grey;
+    }
+    .cards{
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        margin-top: 0px;
+    }
+   
+    .card1{
+       
+        width: 90%;
+        height: 10vh;
+        
+       
+    } 
+    .card2{
+      
+        width: 90%;
+        height: 10vh;
+       
+       
+    } 
+    .card3{
+       
+        width: 90%;
+        height: 10vh;
+        
+       
+    } 
+    .pop-up{
+        height: 48vw;
+        width: 70%;
+        left: 15%;
+        
+    }
+    .pop-upbar{
+
+        font-size: x-large;
+    }
+    .pop-up-button{
+
+        left: 90px;
+    }
+    
+      
+}
